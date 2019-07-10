@@ -1,0 +1,19 @@
+body {
+  font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+  background-color: black;
+}
+
+.txt {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: red;
+}
+.img1{
+  text-align: center;
+}
+.img2 {
+  text-align: center;
+}

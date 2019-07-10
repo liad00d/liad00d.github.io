@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>the nbhd</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="myscript.js" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body class="txt">
+    <h1>The Neighbourhood</h1>
+    <div class="img1">
+    <img width=120 src="https://ih1.redbubble.net/image.539366279.7893/flat,550x550,075,f.u2.jpg"/>
+    </div>
+    <h2>About</h2>
+    <p>
+    The Neighbourhood is a Californian band that produces alternative rock music. Their members include Jesse Rutherford, Zachary Abels, Jeremy Freedman, Mikey Margot and Brandon Alexander Fried.
+    They are known for their hit "Sweather Weather", giving them a rise to fame in 2013. The band is currently on a global tour, and will be performing all across North America in late 2019.
+    </p>
+    <div>
+    To go to their official website, click <a href="https://thenbhd.com/">here!</a>
+    </div>
+    <div class="img2">
+    <img src="https://thetenaflyecho.com/wp-content/uploads/2018/11/71a-bnVt9NL.jpg"/>
+    </div>
+    <h2>Albums</h2>
+    <h3>I Love You</h3>
+    Released in 2013, this album is a cult classic and  include the infamous "Sweather Weather".
+    <h3>Wiped Out!</h3>
+
+    <h3>The Neighbourhood</h3>
+    The self titled album was released in 2018,
+    <h3>Hard To Imagine The Neighbourhood Ever Changing</h3>
+    Being the band's longest collection of songs, the album contains the original self titled album, "The Neighbourhood", as well as the multiple EPs they produced all in 2018, named "Hard", "To Imagine", and "Ever Changing".
+    The combination of these titles makes up the final album name.
+    <h4>Click the image below to see the different album covers (in chronological order of course)</h4>
+    <p>
+        <img alt="" src="https://images-na.ssl-images-amazon.com/images/I/71ILxrYw3tL._SL1500_.jpg"
+            style="width: 198px" id="imgClickAndChange" onclick="changeImage()"  />
+    </p>
+
+    <script language="javascript">
+    function changeImage() {
+        document.getElementById("imgClickAndChange").src == "https://i0.wp.com/www.thehoya.com/wp-content/uploads/2015/11/1500x1500sr.jpg?ssl=1"
+      }
+    function changeImage() {
+        document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/The_Neighbourhood_-_The_Neighbourhood.jpg/220px-The_Neighbourhood_-_The_Neighbourhood.jpg";
+      }
+      function changeImage() {
+        document.getElementById("imgClickAndChange").src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f5aed108-9602-4931-b28d-b007a63504ab/dcutpso-66f95ef9-2171-46d5-8741-763bc9882d0d.png";
+      }
+    </script>
+  </body>
+</html>
+
+
+<img src="1" onmouseover="this.src='2'" onmouseout="this.src='1'">
+
+
+        if (document.getElementById("imgClickAndChange").src == "https://i0.wp.com/www.thehoya.com/wp-content/uploads/2015/11/1500x1500sr.jpg?ssl=1")
+        {
+            document.getElementById("imgClickAndChange").src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/The_Neighbourhood_-_The_Neighbourhood.jpg/220px-The_Neighbourhood_-_The_Neighbourhood.jpg";
+        }
+        else
+        {
+            document.getElementById("imgClickAndChange").src = "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/f5aed108-9602-4931-b28d-b007a63504ab/dcutpso-66f95ef9-2171-46d5-8741-763bc9882d0d.png";
+        }
+        }
